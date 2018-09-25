@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CYQ.Visualizer</RootNamespace>
     <AssemblyName>CYQ.Visualizer</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -52,7 +52,6 @@
     <Compile Include="MDataTableVisualizer.cs" />
     <Compile Include="ImageVisualizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringVisualizer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

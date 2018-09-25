@@ -1,6 +1,7 @@
 ﻿using CYQ.Data.Table;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 
@@ -31,7 +32,7 @@ namespace CYQ.VisualizerDemo
             System.Object ooo = new object();
             ooo = e;
             MDataRow row = MDataRow.CreateFrom(e);
- 
+            ObservableCollection<string> sa = new ObservableCollection<string>(s);
             Console.Read();
 
             
